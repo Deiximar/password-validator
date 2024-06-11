@@ -98,21 +98,3 @@ describe('validate a password that meets at least 4 requirements', () => {
     expect(validatePasswordRequirement(password)).toBe(wrongPassword);
   })
 })
-/*# KATA Password Validation
-
-## Iteración 1 - Validación de contraseña básica
-### Objetivo
-Diseñar e implementar un software que valide una contraseña utilizando TDD.
-La contraseña será introducida por el usuario (como argumento de la función) y el software deberá responder si la contraseña es válida o no.
-
-Una contraseña válida debe cumplir los siguientes requisitos:
-- Tener al menos 8 caracteres
-- Contener una letra mayúscula
-- Contener una letra minúscula
-- Contener un número
-- Contener solo caracteres alfanuméricos 
-
-### Requisitos técnicos:
-- Queremos una función que verifique si la contraseña es válida o no.
-- No queremos saber la razón por la cual la contraseña no es válida (el valor de retorno es un booleano).
-- Todos los tests de esta iteración estarán dentro de un 'describe' */
